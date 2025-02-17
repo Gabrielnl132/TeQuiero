@@ -1,5 +1,5 @@
 // Contraseña predefinida
-const CONTRASENA = "2909";
+const CONTRASENA = "2910";
 
 // Variable para almacenar la contraseña ingresada
 let contrasenaIngresada = "";
@@ -68,7 +68,7 @@ function mostrarCarta() {
 
 // Función para actualizar el contador
 function actualizarContador() {
-    const fechaInicio = new Date('2024-09-29');
+    const fechaInicio = new Date('2024-10-29');
     const ahora = new Date();
 
     let anos = ahora.getFullYear() - fechaInicio.getFullYear();
